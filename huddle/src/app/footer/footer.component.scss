@@ -1,0 +1,62 @@
+@import '../footer/variables.scss';
+
+footer {
+    background-color: $veryDarkCyan;
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        max-width: 1240px;
+        margin: auto;
+        padding-top: 15dvh;
+
+        .footer-logo {
+
+            img {
+                filter: brightness(100);
+                max-width: 100%;
+                height: auto;
+                object-fit: cover;
+                margin-bottom: 3dvh;
+            }
+
+            .info {
+                i {
+                    font-size: 1.1rem;
+                    margin-bottom: 2dvh;
+                }
+            }
+        }
+
+        .about-container, .carrer-container {
+            display: flex;
+
+            .nav-list {
+                list-style: none;
+
+                .nav-link {
+                    color: #fff;
+                    transition: color .7s;
+                }
+
+                .nav-link:hover {
+                    color: $pink;
+                }
+            }
+        }
+
+        .footer-icons {
+           display: flex;
+
+           i {
+            margin-right: 2dvh;
+            transition: color .7s;
+           }
+
+           i:hover {
+            color: $pink;
+           }
+        }
+    }
+}

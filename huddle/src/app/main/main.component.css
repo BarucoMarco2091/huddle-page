@@ -4,11 +4,15 @@ main {
   flex-direction: column;
   gap: 3dvh;
   margin-top: 5dvh;
+  margin-bottom: 50dvh;
+  position: relative;
 }
 main div {
   flex: 1;
 }
-main .grow-container, main .flow-container, main .users-container {
+main .grow-container,
+main .flow-container,
+main .users-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,18 +21,59 @@ main .grow-container, main .flow-container, main .users-container {
   margin: auto;
   border-radius: 1dvh;
 }
-main .grow-text, main .flow-text, main .users-text {
+main .grow-text,
+main .flow-text,
+main .users-text {
   text-align: center;
 }
-main .grow-text h2, main .flow-text h2, main .users-text h2 {
+main .grow-text h2,
+main .flow-text h2,
+main .users-text h2 {
   font-size: 1.8rem;
   margin-bottom: 3dvh;
 }
-main .grow-text p, main .flow-text p, main .users-text p {
+main .grow-text p,
+main .flow-text p,
+main .users-text p {
   color: hsl(208, 11%, 55%);
 }
-main .grow-img img, main .flow-img img, main .users-img img {
+main .grow-img img,
+main .flow-img img,
+main .users-img img {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+}
+main .community {
+  position: absolute;
+  bottom: -60dvh;
+  left: 60dvh;
+  z-index: 9999;
+  background-color: white;
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+  border-radius: 2dvh;
+  width: 90dvh;
+  height: 35dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+main .community h3 {
+  font-size: 1.5rem;
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 4dvh;
+}
+main .community .get-btn {
+  height: 6dvh;
+  width: 30dvh;
+  margin: 0 auto;
+  border: none;
+  border-radius: 3dvh;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  transition: opacity 0.7s;
+}
+main .community .get-btn:hover {
+  opacity: 50%;
 }/*# sourceMappingURL=main.component.css.map */

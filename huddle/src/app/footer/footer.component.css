@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+footer {
+  background-color: hsl(192, 100%, 9%);
+}
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 15dvh;
+}
+footer .footer-container .footer-logo img {
+  filter: brightness(100);
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 3dvh;
+}
+footer .footer-container .footer-logo .info i {
+  font-size: 1.1rem;
+  margin-bottom: 2dvh;
+}
+footer .footer-container .about-container, footer .footer-container .carrer-container {
+  display: flex;
+}
+footer .footer-container .about-container .nav-list, footer .footer-container .carrer-container .nav-list {
+  list-style: none;
+}
+footer .footer-container .about-container .nav-list .nav-link, footer .footer-container .carrer-container .nav-list .nav-link {
+  color: #fff;
+  transition: color 0.7s;
+}
+footer .footer-container .about-container .nav-list .nav-link:hover, footer .footer-container .carrer-container .nav-list .nav-link:hover {
+  color: hsl(322, 100%, 66%);
+}
+footer .footer-container .footer-icons {
+  display: flex;
+}
+footer .footer-container .footer-icons i {
+  margin-right: 2dvh;
+  transition: color 0.7s;
+}
+footer .footer-container .footer-icons i:hover {
+  color: hsl(322, 100%, 66%);
+}/*# sourceMappingURL=footer.component.css.map */
