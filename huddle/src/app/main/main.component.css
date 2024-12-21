@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 3dvh;
+  margin-top: 5dvh;
+}
+main div {
+  flex: 1;
+}
+main .grow-container, main .flow-container, main .users-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+  max-width: 1240px;
+  margin: auto;
+  border-radius: 1dvh;
+}
+main .grow-text, main .flow-text, main .users-text {
+  text-align: center;
+}
+main .grow-text h2, main .flow-text h2, main .users-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 3dvh;
+}
+main .grow-text p, main .flow-text p, main .users-text p {
+  color: hsl(208, 11%, 55%);
+}
+main .grow-img img, main .flow-img img, main .users-img img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.component.css.map */

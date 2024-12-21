@@ -1,0 +1,44 @@
+@import '../main/variables.scss';
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3dvh;
+    margin-top: 5dvh;
+
+div {
+        flex: 1;
+    }
+
+    .grow-container, .flow-container, .users-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+        max-width: 1240px;
+        margin: auto;
+        border-radius: 1dvh;
+    }
+
+    .grow-text, .flow-text, .users-text {
+        text-align: center;
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 3dvh;
+        }
+       
+        p {
+            color: $grayishBlue;
+        }
+    }
+
+    .grow-img, .flow-img, .users-img {
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+}
