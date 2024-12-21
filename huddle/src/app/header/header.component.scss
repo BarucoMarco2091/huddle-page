@@ -1,0 +1,68 @@
+@import '../header/variables.scss';
+
+header {
+    background-image: url('/bg-hero-desktop.svg');
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1240px;
+        margin: auto;
+        padding-top: 2dvh;
+
+        .nav-btn {
+            display: flex;
+
+            .try-btn {
+                background-color: #fff;
+                border: none;
+                border-radius: 3dvh;
+                color: $grayishBlue;
+                height: 6dvh;
+                width: 20dvh;
+            }
+        }
+    }
+
+    .header-container {
+        display: flex;
+        max-width: 1240px;
+        margin: auto;
+
+        div {
+            flex: 1;
+        }
+
+        .header-text {
+            margin-top: 14dvh;
+
+            h1 {
+                color: $veryDarkCyan;
+                margin-bottom: 5dvh;
+            }
+
+            p {
+                color: $veryDarkCyan;
+                margin-bottom: 3dvh;
+            }
+
+            .get-started-btn {
+                height: 6dvh;
+                width: 25dvh;
+                border: none;
+                border-radius: 3dvh;
+                background-color: $pink;
+                color: $veryPaleCyan;
+                transition: opacity .7s;
+            }
+
+            .get-started-btn:hover {
+                opacity: 50%;
+            }
+        }
+
+        .header-img {
+            margin-top: 7dvh;
+        }
+    }
+}

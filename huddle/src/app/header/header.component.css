@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  background-image: url("/bg-hero-desktop.svg");
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: auto;
+  padding-top: 2dvh;
+}
+header nav .nav-btn {
+  display: flex;
+}
+header nav .nav-btn .try-btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 3dvh;
+  color: hsl(208, 11%, 55%);
+  height: 6dvh;
+  width: 20dvh;
+}
+header .header-container {
+  display: flex;
+  max-width: 1240px;
+  margin: auto;
+}
+header .header-container div {
+  flex: 1;
+}
+header .header-container .header-text {
+  margin-top: 14dvh;
+}
+header .header-container .header-text h1 {
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 5dvh;
+}
+header .header-container .header-text p {
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 3dvh;
+}
+header .header-container .header-text .get-started-btn {
+  height: 6dvh;
+  width: 25dvh;
+  border: none;
+  border-radius: 3dvh;
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(193, 100%, 96%);
+  transition: opacity 0.7s;
+}
+header .header-container .header-text .get-started-btn:hover {
+  opacity: 50%;
+}
+header .header-container .header-img {
+  margin-top: 7dvh;
+}/*# sourceMappingURL=header.component.css.map */
