@@ -87,3 +87,27 @@ main {
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        margin-bottom: 3dvh !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grow-container,
+    .flow-container,
+    .users-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 2dvh 2dvh !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .community {
+        display: none;
+    }
+}

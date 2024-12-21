@@ -9,6 +9,10 @@ header nav {
   margin: auto;
   padding-top: 5dvh;
 }
+header nav img {
+  max-width: 100%;
+  height: auto;
+}
 header nav .nav-btn {
   display: flex;
 }
@@ -54,4 +58,32 @@ header .header-container .header-text .get-started-btn:hover {
 }
 header .header-container .header-img {
   margin-top: 7dvh;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2dvh 2dvh !important;
+  }
+  nav img {
+    max-width: 100%;
+    height: auto;
+  }
+  nav .nav-btn {
+    display: flex;
+    margin-left: 2dvh !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3dvh;
+  }
+  .header-container .header-text {
+    margin-top: 3dvh !important;
+  }
 }/*# sourceMappingURL=header.component.css.map */

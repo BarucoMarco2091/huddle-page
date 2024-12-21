@@ -10,6 +10,11 @@ header {
         margin: auto;
         padding-top: 5dvh;
 
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
         .nav-btn {
             display: flex;
 
@@ -67,3 +72,35 @@ header {
         }
     }
 } 
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 2dvh 2dvh !important;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .nav-btn {
+            display: flex;
+            margin-left: 2dvh !important;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3dvh;
+
+        .header-text {
+            margin-top: 3dvh !important;
+        }
+    }
+}

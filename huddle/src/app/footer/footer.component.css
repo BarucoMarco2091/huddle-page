@@ -44,4 +44,27 @@ footer .footer-container .footer-icons i {
 }
 footer .footer-container .footer-icons i:hover {
   color: hsl(322, 100%, 66%);
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5dvh !important;
+  }
+  .about-container, .carrer-container {
+    display: flex;
+    justify-content: center;
+  }
+  .about-container .nav-list, .carrer-container .nav-list {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=footer.component.css.map */
